@@ -4,7 +4,7 @@
 
 **A clean and powerful Baileys wrapper for WhatsApp bots**
 
-*Built with simplicity. Maintained by SIFAT.*
+*Maintained by SIFAT*
 
 ---
 
@@ -19,7 +19,7 @@
 
 ## What is this?
 
-`@sifat/baileys-wrapper` is a lightweight JavaScript library that wraps the [Baileys](https://github.com/WhiskeySockets/Baileys) WhatsApp Web API, making it easier and faster to build WhatsApp bots with a clean event-driven structure.
+`baileys-wrapper` is a lightweight JavaScript library that wraps the [Baileys](https://github.com/MYB-SIFU/baileys-wrapper) WhatsApp Web API, making it easier and faster to build WhatsApp bots with a clean event-driven structure.
 
 ---
 
@@ -123,7 +123,7 @@ new Client({
 ## Text Formatting
 
 ```js
-const { Formatter } = require("@sifat/baileys-wrapper");
+const { Formatter } = require("@maybexenos/baileys-wrapper");
 
 Formatter.bold("Hello")         // *Hello*
 Formatter.italic("Hello")       // _Hello_
@@ -134,17 +134,8 @@ Formatter.quote("Hello")        // > Hello
 
 ---
 
-## Acknowledgements
-
-- [Jastin Linggar Tama](https://github.com/JastinXyz) — original ckptw library
-- [Lia Wynn](https://github.com/itsliaaa) — Baileys modification
-- [WhiskeySockets](https://github.com/WhiskeySockets) — Baileys core maintenance
-- All contributors and users
-
----
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
-Copyright (c) 2025 **SIFAT**
+Copyright (c) 2026 **SIFAT**
